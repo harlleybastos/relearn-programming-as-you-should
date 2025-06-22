@@ -20,7 +20,7 @@ Continue my CodeQuest session from the latest checkpoint
 ## 📁 Project Structure
 
 ```
-learning-programming/
+relearn-programming-as-you-should/
 ├── .cursor/
 │   └── rules/                    # AI behavior rules (auto-loaded)
 │       ├── codequest-system.mdc  # Main system rules
