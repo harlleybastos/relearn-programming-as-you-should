@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "system": "CodeQuest",
+  "student": {
+    "codeName": null,
+    "created": null,
+    "lastActive": null,
+    "totalTimePlayed": 0
+  },
+  "progress": {
+    "level": 1,
+    "currentXP": 0,
+    "nextLevelXP": 100,
+    "totalXP": 0,
+    "skills": {
+      "logic_mastery": 0,
+      "problem_solving": 0,
+      "code_understanding": 0,
+      "architecture_design": 0
+    }
+  },
+  "achievements": {
+    "first_logic_gate": false,
+    "pattern_hunter": {
+      "earned": false,
+      "progress": 0,
+      "required": 5
+    },
+    "problem_decomposer": false,
+    "bug_detective": {
+      "earned": false,
+      "progress": 0,
+      "required": 10
+    },
+    "architecture_apprentice": false,
+    "eureka_moment": false,
+    "autonomous_coder": false
+  },
+  "powerups": {
+    "hint_tokens": 3,
+    "debug_vision": 1,
+    "mentor_wisdom": 1,
+    "pattern_radar": 0
+  },
+  "statistics": {
+    "challengesCompleted": 0,
+    "challengesAttempted": 0,
+    "hintsUsed": 0,
+    "bugsFixed": 0,
+    "questsCompleted": 0,
+    "favoriteQuestType": null,
+    "averageTimePerChallenge": null,
+    "successRate": null
+  },
+  "preferences": {
+    "learningStyle": null,
+    "preferredLanguage": null,
+    "difficultyPreference": "adaptive"
+  }
+}

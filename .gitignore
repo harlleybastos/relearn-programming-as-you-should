@@ -1,0 +1,39 @@
+# CodeQuest Git Ignore File
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Keep checkpoint structure but allow ignoring large checkpoints if needed
+# Uncomment below lines if checkpoints get too large
+# .context/checkpoints/*.md
+# !.context/checkpoints/README.md
+# !.context/checkpoints/latest.md
+
+# Never ignore the rules - they're essential!
+# .cursor/rules/ files should always be committed
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Personal notes (if you keep any)
+personal_notes/
+scratch/

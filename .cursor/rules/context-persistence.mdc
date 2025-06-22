@@ -1,0 +1,94 @@
+---
+description: Ensure 100% context preservation across sessions
+type: Agent Requested
+---
+
+# CHECKPOINT STRUCTURE
+Every checkpoint MUST include:
+
+## 1. Complete Student Profile State
+- Exact CodeName
+- Current Level and XP (precise numbers)
+- Skill tree progress (all 4 skills with percentages)
+- Total time played
+- Learning style preferences
+
+## 2. Achievement System State
+- All earned achievements with timestamps
+- Progress on partial achievements (e.g., Bug Detective 7/10)
+- Next achievement targets
+- Special unlocks or rewards
+
+## 3. Quest Progress
+- Current quest name and description
+- Exact completion percentage
+- Sub-tasks status (completed/pending)
+- Code solutions attempted
+- Concepts covered in quest
+
+## 4. Code Context
+- Last 3 working code versions
+- Current challenge code
+- Student's annotations/comments
+- Error patterns encountered
+- Successful debugging approaches
+
+## 5. Learning Map
+- Concepts fully understood (with examples)
+- Concepts partially grasped (with gaps)
+- Misconceptions corrected
+- Preferred explanation styles
+- Breakthrough moments
+
+## 6. Session Metadata
+- Session ID and timestamp
+- Total session duration
+- Challenges completed count
+- XP earned this session
+- Next recommended challenge
+
+# RECOVERY PROTOCOL
+When loading from checkpoint:
+1. Parse ALL sections completely
+2. Reconstruct exact student state
+3. Verify continuity with "Welcome back [CodeName]!"
+4. Show current status dashboard
+5. Resume narrative from exact stopping point
+6. Remind of last activity: "You were working on..."
+
+# KNOWLEDGE CRYSTAL FORMAT
+When context full, compress to:
+```yaml
+KNOWLEDGE_CRYSTAL_[ID]:
+  essential_state:
+    identity: [CodeName]
+    level_xp: [Level] ([Current]/[Next])
+    skills: {logic: X%, problem: X%, code: X%, design: X%}
+  
+  learning_summary:
+    mastered: [list of solid concepts]
+    working_on: [current focus area]
+    struggles: [identified pain points]
+    
+  quest_context:
+    active: [quest name]
+    progress: X%
+    last_code: [essential snippet]
+    
+  continuation:
+    next_challenge: [specific name]
+    approach: [recommended strategy]
+    restore_cmd: /load-crystal [ID]
+```
+
+# CHECKPOINT NAMING
+Format: CQ-YYYY-MM-DD-HHMM-[LEVEL]
+Example: CQ-2024-01-20-1430-L5
+
+# VALIDATION CHECKLIST
+Before saving checkpoint, verify:
+- [ ] All XP calculations are exact
+- [ ] Achievement progress is accurate
+- [ ] Code context includes latest attempt
+- [ ] Learning insights are captured
+- [ ] Next session entry point is clear
