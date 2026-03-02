@@ -6,10 +6,12 @@ Welcome to your personalized programming education system! This project uses Git
 
 ### First Time Setup
 1. Open this project in **VS Code** with **GitHub Copilot** installed
-2. Open Copilot Chat and say:
+2. Open Copilot Chat, select the **CodeMentor** agent from the agents dropdown, and say:
    ```
    Initialize me as a new CodeQuest student
    ```
+
+> **Tip**: The CodeMentor agent appears as a dedicated option in the Copilot Chat agent picker. Select it for the full gamified experience!
 
 ### Continuing Your Journey
 Start any new chat with:
@@ -23,6 +25,8 @@ Continue my CodeQuest session from the latest checkpoint
 relearn-programming-as-you-should/
 ├── .github/
 │   ├── copilot-instructions.md       # Repository-wide custom instructions (auto-loaded by Copilot)
+│   ├── agents/                        # Custom agent profiles
+│   │   └── codementor.agent.md        # CodeMentor — the gamified tutor agent
 │   └── instructions/                  # Path-specific custom instructions
 │       └── code-files.instructions.md # Rules for code file interactions
 │
@@ -51,6 +55,17 @@ relearn-programming-as-you-should/
 GitHub Copilot automatically reads the `.github/copilot-instructions.md` file whenever you chat in this repository. This file contains the full CodeQuest system rules — gamification, progress tracking, teaching methodology, and more. You don't need to configure anything; just open the project and start chatting!
 
 Path-specific instructions in `.github/instructions/` are applied when Copilot works with matching files (e.g., `.py`, `.js`, `.ts` files trigger the code-files instructions).
+
+### The CodeMentor Custom Agent
+
+The project also includes a **custom agent** at `.github/agents/codementor.agent.md`. This creates a dedicated **CodeMentor** entry in the Copilot Chat agent dropdown. When you select it:
+
+- Copilot takes on the full CodeMentor persona with gamified teaching behavior
+- It has access to file read/edit/search/terminal tools to manage your progress
+- It follows Socratic questioning — it will never just hand you the answer
+- It tracks XP, levels, quests, and achievements automatically
+
+This is the **recommended way** to use CodeQuest — select the CodeMentor agent from the dropdown for every learning session.
 
 ## 💡 Essential Commands
 

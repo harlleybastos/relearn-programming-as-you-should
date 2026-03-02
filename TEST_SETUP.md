@@ -4,7 +4,7 @@
 Open the project folder in VS Code with GitHub Copilot installed.
 
 ## Step 2: Start a New Copilot Chat
-Open GitHub Copilot Chat (Ctrl+Alt+I or Cmd+Alt+I) and paste this exact prompt:
+Open GitHub Copilot Chat (Ctrl+Alt+I or Cmd+Alt+I), select **CodeMentor** from the agents dropdown, and paste this exact prompt:
 
 ```
 I want to test the CodeQuest system. Please:
@@ -25,7 +25,7 @@ You should see:
 - ✅ Your status dashboard displayed
 
 ## Step 4: Test Continuation
-Start a SECOND Copilot Chat and paste:
+Start a SECOND Copilot Chat, select **CodeMentor** again, and paste:
 
 ```
 Continue my CodeQuest session.

@@ -3,12 +3,16 @@
 ## 📋 Copy-Paste Prompts for Every Situation
 
 ### 🎮 First Time Ever
+1. Open Copilot Chat and select **CodeMentor** from the agents dropdown
+2. Type:
 ```
 Initialize me as a new CodeQuest student. My name is [YOUR_NAME].
 Start me on the Tutorial Island to learn the system.
 ```
 
 ### 🔄 Starting Any New Chat Session
+1. Open Copilot Chat and select **CodeMentor** from the agents dropdown
+2. Type:
 ```
 Continue my CodeQuest journey.
 Load my progress from .context/current-session.md
