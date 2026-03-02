@@ -13,14 +13,18 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Legacy Cursor rules (no longer used — project uses GitHub Copilot)
+.cursor/
+
 # Keep checkpoint structure but allow ignoring large checkpoints if needed
 # Uncomment below lines if checkpoints get too large
 # .context/checkpoints/*.md
 # !.context/checkpoints/README.md
 # !.context/checkpoints/latest.md
 
-# Never ignore the rules - they're essential!
-# .cursor/rules/ files should always be committed
+# Never ignore the GitHub Copilot instructions — they're essential!
+# .github/copilot-instructions.md should always be committed
+# .github/instructions/ should always be committed
 
 # Python
 __pycache__/

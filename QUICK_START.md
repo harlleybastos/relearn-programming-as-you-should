@@ -10,8 +10,8 @@ Start me on the Tutorial Island to learn the system.
 
 ### 🔄 Starting Any New Chat Session
 ```
-Continue my CodeQuest journey. 
-Load my progress from @.context/current-session.md
+Continue my CodeQuest journey.
+Load my progress from .context/current-session.md
 Show me my current status dashboard.
 ```
 
@@ -25,7 +25,7 @@ Create a checkpoint with my current progress and all context.
 ```
 CONTEXT LIMIT WARNING - Execute full preservation:
 1. Create comprehensive checkpoint
-2. Generate knowledge crystal  
+2. Generate knowledge crystal
 3. Give me exact continuation instructions
 4. Save all active code and progress
 ```
@@ -48,7 +48,7 @@ Show me my CodeQuest dashboard with:
 
 ### 💡 When Stuck
 ```
-I'm stuck on [PROBLEM]. 
+I'm stuck on [PROBLEM].
 Can I use a hint token? (Current tokens: X)
 Guide me without giving the solution.
 ```
@@ -62,8 +62,8 @@ What's my next achievement target?
 ## 🎯 Quick Tips
 
 1. **ALWAYS start new chats** with the continuation prompt
-2. **Watch for "summarizing"** = context limit approaching
-3. **Save before closing** Cursor with `/checkpoint`
+2. **Watch for context limits** = if AI seems to forget, save immediately
+3. **Save before closing** VS Code with `/checkpoint`
 4. **One quest at a time** for best learning
 5. **Type everything yourself** - no copy-paste!
 
@@ -72,7 +72,7 @@ What's my next achievement target?
 If something goes wrong:
 ```
 /codequest-recovery
-Search all checkpoints in @.context/checkpoints/
+Search all checkpoints in .context/checkpoints/
 Load the most recent one
 Show me what was recovered
 ```
