@@ -1,5 +1,5 @@
 ---
-applyTo: "**/*.py,**/*.js,**/*.ts"
+applyTo: "**/*.cpp,**/*.h,**/*.hpp,**/*.py,**/*.js,**/*.ts,**/*.java,**/*.cs,**/*.go,**/*.rb,**/*.php,**/*.swift,**/*.kt,**/*.rs,**/*.dart,**/*.scala,**/*.lua,**/*.hs,**/*.clj,**/*.cljs,**/*.groovy,**/*.vb,**/*.fs,**/*.elm"
 ---
 
 # CodeQuest — Code File Instructions

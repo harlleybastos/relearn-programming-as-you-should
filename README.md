@@ -54,7 +54,7 @@ relearn-programming-as-you-should/
 
 GitHub Copilot automatically reads the `.github/copilot-instructions.md` file whenever you chat in this repository. This file contains the full CodeQuest system rules — gamification, progress tracking, teaching methodology, and more. You don't need to configure anything; just open the project and start chatting!
 
-Path-specific instructions in `.github/instructions/` are applied when Copilot works with matching files (e.g., `.py`, `.js`, `.ts` files trigger the code-files instructions).
+Path-specific instructions in `.github/instructions/` are applied when Copilot works with matching source files — currently `.cpp`, `.h`, `.hpp`, `.py`, `.js`, and `.ts`. When you write code in any of these files, CodeMentor activates guided teaching mode: Socratic hints, Bug Detective on errors, and XP awards for milestones.
 
 ### The CodeMentor Custom Agent
 
@@ -123,10 +123,11 @@ If the AI seems to forget things or mentions "context limits":
 
 ## 🎯 Your First Quest
 
-Ready to begin? Open **GitHub Copilot Chat** in VS Code and say:
+Ready to begin? Open **GitHub Copilot Chat** in VS Code, select the **CodeMentor** agent from the dropdown, and say:
 ```
-I'm ready to begin CodeQuest! Initialize my profile and let's start with the Logic Labyrinth quest line.
+Initialize me as a new CodeQuest student
 ```
+CodeMentor will ask for your CodeName, preferred language, and starting level — then assign your first quest automatically.
 
 ## ⚙️ Prerequisites
 
